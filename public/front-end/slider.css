@@ -1,0 +1,26 @@
+#myCarousel .active > img{
+  transform:scale(1.5);
+  -webkit-transform: scale(1.5);
+  -webkit-transition: -webkit-transform 6s ease-out;
+  -moz-transition: -moz-transform 6s ease-out;
+  transition: transform 6s ease-out;
+}
+
+/* page gioi thieu ve chung toi */
+.about-section h1 {
+    padding: 1.5rem 0;
+}
+.about-section .text {
+    padding-bottom: 1.5rem;
+    color: black;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+}
+.about-section.text span {
+    font-weight: bold;
+}
+.about-section .img-full  {
+    padding-bottom: 2.5rem;
+    width: 100%;
+}
